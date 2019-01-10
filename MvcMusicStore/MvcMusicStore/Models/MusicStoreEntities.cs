@@ -1,4 +1,7 @@
-﻿namespace MvcMusicStore.Models
+﻿using System.Data.Entity;
+using System.Web.Configuration;
+
+namespace MvcMusicStore.Models
 {
     public class MusicStoreEntities : DbContext
     {
@@ -6,11 +9,4 @@
         public DbSet<Genre> Genres { get; set; }
     }
 
-    public class DbSet<T>
-    {
-    }
-
-    public class DbContext
-    {
-    }
 }
