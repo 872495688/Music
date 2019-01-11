@@ -62,7 +62,7 @@ namespace MvcMusicStore.Controllers
             ViewBag.GenreId = new SelectList(db.Genres, "GenreId", "Name", album.GenreId);
             return View(album);
         }
-
+      
         // GET: StoreManager/Edit/5
         public ActionResult Edit(int? id)
         {
