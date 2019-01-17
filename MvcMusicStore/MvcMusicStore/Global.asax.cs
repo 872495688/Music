@@ -17,7 +17,7 @@ namespace MvcMusicStore
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            Database.SetInitializer(new SampleData());
+            //Database.SetInitializer(new SampleData());
         }
 
        

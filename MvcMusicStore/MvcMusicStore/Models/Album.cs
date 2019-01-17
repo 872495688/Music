@@ -5,6 +5,7 @@ using System.Web;
 
 namespace MvcMusicStore.Models
 {
+    //
     public class Album
     {
         public int AlbumId { get; set; }
